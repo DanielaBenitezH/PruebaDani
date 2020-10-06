@@ -17,4 +17,9 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('home','HomeController@Index');
+Route::get('home','HomeController@Busca');
+
+Route::get('lista','HomeController@consulta');
+
+
+
